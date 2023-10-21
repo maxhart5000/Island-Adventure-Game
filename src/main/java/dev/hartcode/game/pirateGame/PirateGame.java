@@ -68,14 +68,14 @@ public class PirateGame extends Game<Pirate> {
     // Load the game data, including towns and their details
     private static void loadData() {
         // Level 1 Towns
-        levelMap.add(new ArrayList<Town>(List.of(
+        levelMap.add(new ArrayList<>(List.of(
                 new Town("Isle Of Man", "UK", 0),
                 new Town("Isle Of White", "UK", 0),
                 new Town("Shetland Islands", "UK", 0)
         )));
 
         // Level 2 Towns
-        levelMap.add(new ArrayList<Town>(List.of(
+        levelMap.add(new ArrayList<>(List.of(
                 new Town("Denpasar", "Bali", 1),
                 new Town("Ubud", "Bali", 1),
                 new Town("Bueleng", "Bali", 1)
